@@ -1,0 +1,138 @@
+body {
+  transition-duration: 0.3s !important;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.NAVBAR {
+  background-color: #07172b !important;
+}
+
+.buttons {
+  background-color: #07172b !important;
+  color: white;
+  border: #07172b 2px solid;
+  padding: 8px;
+  border-radius: 4px;
+  transition-duration: 0.5s, 0.5s;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.buttons:hover {
+  background-color: #fff !important;
+  color: #07172b !important;
+  border: #07172b 2px solid !important;
+  transform: scale(1.1);
+  padding: 8px 20px;
+  transition-duration: 0.5s, 0.5s;
+  box-shadow: #282c34 4px 4px 8px;
+  cursor: pointer;
+}
+
+input {
+  background-color: rgb(241, 241, 241) !important;
+  border: 0px 0px 2px 0px solid #07172b !important;
+  border-radius: 0px !important;
+}
+
+.deleteButtons {
+  background-color: white;
+  color: rgb(227, 40, 40);
+  border-radius: 4px;
+  border: 1px solid rgb(227, 40, 40);
+  transition-duration: 0.5s, 0.5s;
+}
+.deleteButtons:hover {
+  background-color: rgb(227, 40, 40);
+  color: white;
+  border-radius: 4px;
+  border: 1px solid rgb(227, 40, 40);
+  transition-duration: 0.5s, 0.5s;
+  box-shadow: #282c34 4px 4px 8px;
+}
+.editButtons {
+  background-color: white;
+  color: #07172b;
+  border-radius: 4px;
+  border: 1px solid #07172b;
+  transition-duration: 0.5s, 0.5s;
+}
+.editButtons:hover {
+  background-color: #07172b;
+  color: white;
+  border-radius: 4px;
+  border: 1px solid #07172b;
+  transition-duration: 0.5s, 0.5s;
+  box-shadow: #282c34 4px 4px 8px;
+}
+.cardBox {
+  margin: 20px 10px;
+  transition-duration: 0.5s, 0.5s;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+.cardBox:hover {
+  transition-duration: 0.5s, 0.5s;
+  box-shadow: #282c34 4px 4px 8px;
+}
+
+.btnCallMe {
+  color: rgb(47, 47, 47);
+  text-decoration: none;
+}
+.btnWrapper {
+  margin: 20px 0px 0px 0px;
+}
+
+.cradsWrapper {
+  padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .cardBox {
+    margin: 20px 10px 20px 10px;
+    transition-duration: 0.5s, 0.5s;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
